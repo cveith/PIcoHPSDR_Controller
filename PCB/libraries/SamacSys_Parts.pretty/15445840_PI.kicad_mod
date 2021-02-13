@@ -1,4 +1,4 @@
-(module 15445840_PI (layer F.Cu) (tedit 6023FC27)
+(module 15445840_PI (layer F.Cu) (tedit 60279B8B)
   (descr 15-44-5840-3)
   (tags Connector)
   (fp_text reference J3 (at 24.13 0.682 -180) (layer F.SilkS)
@@ -69,7 +69,7 @@
   (pad GND thru_hole circle (at 53.13 1.27) (size 6 6) (drill 2.7) (layers *.Cu *.Mask))
   (pad GND thru_hole circle (at -4.87 1.27) (size 6 6) (drill 2.7) (layers *.Cu *.Mask))
   (pad GND thru_hole circle (at 53.13 -47.73) (size 6 6) (drill 2.7) (layers *.Cu *.Mask))
-  (model D:\Workspaces\libraries\SamacSys_Parts.3dshapes\15-44-5840.stp
+  (model ${KIPRJMOD}/libraries/SamacSys_Parts.3dshapes/15-44-5840.stp
     (offset (xyz 24.1299987983705 -1.289999942479176 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

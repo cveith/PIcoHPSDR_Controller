@@ -1,4 +1,4 @@
-(module 1725672-4-2.54 (layer F.Cu) (tedit 60271D99)
+(module 1725672-4-2.54 (layer F.Cu) (tedit 60279BE7)
   (descr 1725672-4-2.54)
   (tags Connector)
   (fp_text reference J** (at 3.40816 1.57943) (layer F.SilkS)
@@ -23,7 +23,7 @@
   (pad 2 thru_hole circle (at 2.54 0) (size 1.65 1.65) (drill 1.1) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at 5.08 0) (size 1.65 1.65) (drill 1.1) (layers *.Cu *.Mask))
   (pad 4 thru_hole circle (at 7.62 0) (size 1.65 1.65) (drill 1.1) (layers *.Cu *.Mask))
-  (model D:\Workspaces\libraries\SamacSys_Parts.3dshapes\1725672.stp
+  (model ${KIPRJMOD}/libraries/SamacSys_Parts.3dshapes/1725672.stp
     (offset (xyz -1.5 -3 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))

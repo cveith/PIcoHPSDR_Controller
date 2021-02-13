@@ -21,13 +21,25 @@ $ENDCMP
 #
 $CMP 2743021447
 D Fair-Rite Ferrite Bead, 9.6 x 3.05 x 2.85mm (SMD), 56 impedance at 25 MHz, 95 impedance at 100 MHz
-K
-F 
+$ENDCMP
+#
+$CMP 293D107X0010C2TE3
+D Solid Tantalum Surface Mount Chip Capacitors TANTAMOUNT(TM), Molded Case, Standard Industrial Grade
+F http://www.vishay.com/doc?40002
+$ENDCMP
+#
+$CMP 293D226X9035D2TE3
+D Solid Tantalum Surface Mount Chip Capacitors TANTAMOUNT(TM), Molded Case, Standard Industrial Grade
+F http://www.vishay.com/doc?40002
+$ENDCMP
+#
+$CMP 293D476X0016D2TE3
+D Solid Tantalum Surface Mount Chip Capacitors TANTAMOUNT(TM), Molded Case, Standard Industrial Grade
+F http://www.mouser.com/datasheet/2/427/293d-239871.pdf
 $ENDCMP
 #
 $CMP 2N7002K
 D MOSFET, Fairchild, 2N7002K Fairchild 2N7002K N-channel MOSFET Transistor, 0.3 A, 60 V, 3-Pin SOT-23
-K
 F https://componentsearchengine.com/Datasheets/2/2N7002K.pdf
 $ENDCMP
 #
@@ -50,6 +62,15 @@ D ABRACON - ASE-24.000MHZ-ET - Oscillator, 24 MHz, 100 ppm, SMD, 3.2mm x 2.5mm, 
 F https://abracon.com/Oscillators/ASEseries.pdf
 $ENDCMP
 #
+$CMP B3F-1055
+D OMRON ELECTRONIC COMPONENTS - B3F-1055 - SWITCH, TACTILE, SPST-NO, 50mA, THOUGH HOLE
+F https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf
+$ENDCMP
+#
+$CMP BAS16J,135
+D Diodes - General Purpose, Power, Switching Switching Diodes 1.5pF 550mW
+$ENDCMP
+#
 $CMP DS3231MZ_V+
 D Real Time Clock TRC/TCMO MEMS 8L
 F https://datasheets.maximintegrated.com/en/ds/DS3231M.pdf
@@ -67,7 +88,6 @@ $ENDCMP
 #
 $CMP FDD6685
 D Fairchild FDD6685 P-channel MOSFET Transistor, 11 A, -30 V, 3-Pin TO-252
-K
 F http://www.onsemi.com/pub/Collateral/FDD6685-D.PDF
 $ENDCMP
 #
@@ -81,9 +101,19 @@ D Texas Instruments, LMZ22005TZ/NOPB DC-DC Converter 5A Adjustable, 0.8  6 V, 7-
 F http://www.ti.com/lit/gpn/lmz22005
 $ENDCMP
 #
+$CMP M24C32-RDW6TP
+D STMICROELECTRONICS - M24C32-RDW6TP - EEPROM, 32KBIT, I2C, 1MHZ, TSSOP-8
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/80/4e/8c/54/f2/63/4c/4a/CD00001012.pdf/files/CD00001012.pdf/jcr:content/translations/en.CD00001012.pdf
+$ENDCMP
+#
 $CMP MCP23017T-E_SO
 D Interface - I/O Expanders 16bit Input/Output Exp I2C interface
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf
+$ENDCMP
+#
+$CMP NC12S0A0H06PNFA
+D Delphi NC06 Series Non-Isolated Point of Load DC/DC Power Modules: 12Vin, 0.9V~5.0Vout, 6A
+F https://www.mouser.fi/datasheet/2/632/DS_NC12S06A-1141897.pdf
 $ENDCMP
 #
 $CMP NE555DR
@@ -124,57 +154,14 @@ D SWITCH, TACTILE SPST 50mA, SMD GULL WING, FULL REEL; Product Range:TL3301 Seri
 F https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj9rNK2qfDsAhUUTBUIHRQCCCMQFjAAegQIAxAC&url=https%3A%2F%2Fwww.digikey.com%2Fen%2Fproducts%2Fdetail%2Fe-switch%2FTL3301SPF260QG%2F951367&usg=AOvVaw14Rpl1B4ot6i5KjXDn9E9
 $ENDCMP
 #
-$CMP WM8960CGEFL_V
-D Interface - CODECs Stereo CODEC with 1W DRIVER
-F https://componentsearchengine.com/Datasheets/1/WM8960CGEFL_V.pdf
-$ENDCMP
-#
-$CMP BAS16J,135
-D Diodes - General Purpose, Power, Switching Switching Diodes 1.5pF 550mW
-K
-F 
-$ENDCMP
-#
-$CMP 293D226X9035D2TE3
-D Solid Tantalum Surface Mount Chip Capacitors TANTAMOUNT(TM), Molded Case, Standard Industrial Grade
-K
-F http://www.vishay.com/doc?40002
-$ENDCMP
-#
-$CMP 293D476X0016D2TE3
-D Solid Tantalum Surface Mount Chip Capacitors TANTAMOUNT(TM), Molded Case, Standard Industrial Grade
-K
-F http://www.mouser.com/datasheet/2/427/293d-239871.pdf
-$ENDCMP
-#
-$CMP 293D107X0010C2TE3
-D Solid Tantalum Surface Mount Chip Capacitors TANTAMOUNT(TM), Molded Case, Standard Industrial Grade
-K
-F http://www.vishay.com/doc?40002
-$ENDCMP
-#
-$CMP M24C32-RDW6TP
-D STMICROELECTRONICS - M24C32-RDW6TP - EEPROM, 32KBIT, I2C, 1MHZ, TSSOP-8
-K
-F http://www.st.com/content/ccc/resource/technical/document/datasheet/80/4e/8c/54/f2/63/4c/4a/CD00001012.pdf/files/CD00001012.pdf/jcr:content/translations/en.CD00001012.pdf
-$ENDCMP
-#
 $CMP TSX-3225_24.0000MF18X-C
 D Crystals XTAL MHZ +/-10PPM+/-18PPM-40 85C 18.0PF BULK - CUT TAPE
-K
 F https://support.epson.biz/td/api/doc_check.php?dl=brief_FA-238V_en.pdf
 $ENDCMP
 #
-$CMP NC12S0A0H06PNFA
-D Delphi NC06 Series Non-Isolated Point of Load DC/DC Power Modules: 12Vin, 0.9V~5.0Vout, 6A
-K
-F https://www.mouser.fi/datasheet/2/632/DS_NC12S06A-1141897.pdf
-$ENDCMP
-#
-$CMP B3F-1055
-D OMRON ELECTRONIC COMPONENTS - B3F-1055 - SWITCH, TACTILE, SPST-NO, 50mA, THOUGH HOLE
-K
-F https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf
+$CMP WM8960CGEFL_V
+D Interface - CODECs Stereo CODEC with 1W DRIVER
+F https://componentsearchengine.com/Datasheets/1/WM8960CGEFL_V.pdf
 $ENDCMP
 #
 #End Doc Library
