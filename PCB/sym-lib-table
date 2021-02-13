@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name CUI_Devices)(type Legacy)(uri "${KIPRJMOD}/CUI Devices.lib")(options "")(descr ""))
+  (lib (name SamacSys)(type Legacy)(uri ${KIPRJMOD}/libraries/SamacSys_Parts.lib)(options "")(descr ""))
+)

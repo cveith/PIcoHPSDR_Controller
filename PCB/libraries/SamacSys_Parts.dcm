@@ -1,0 +1,180 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 10129379-905001BLF
+D Headers & Wire Housings ECONOSTIK HEADER SR RA TH 1X5
+F https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10129379.pdf
+$ENDCMP
+#
+$CMP 103
+D KEYSTONE - 103 - BATTERY HOLDER, 20MM COIN CELL, SMD
+F http://www.keyelco.com/product-pdf.cfm?p=719
+$ENDCMP
+#
+$CMP 15-44-5840
+D Headers & Wire Housings RECP DUAL VERT 40P
+$ENDCMP
+#
+$CMP 1725672
+D 4 way vertical PCB terminal,6A 63V Phoenix Contact Non-Fused Terminal Block, 4 Way, Solder Terminals, 26 ??? 20 AWG Through Hole, Nylon, 63 V
+F https://www.phoenixcontact.com/online/portal/us?uri=pxc-oc-itemdetail:pid=1725672&library=usen&tab=1.pdf
+$ENDCMP
+#
+$CMP 2743021447
+D Fair-Rite Ferrite Bead, 9.6 x 3.05 x 2.85mm (SMD), 56 impedance at 25 MHz, 95 impedance at 100 MHz
+K
+F 
+$ENDCMP
+#
+$CMP 2N7002K
+D MOSFET, Fairchild, 2N7002K Fairchild 2N7002K N-channel MOSFET Transistor, 0.3 A, 60 V, 3-Pin SOT-23
+K
+F https://componentsearchengine.com/Datasheets/2/2N7002K.pdf
+$ENDCMP
+#
+$CMP 615008144221
+D Modular Jack RJ45 8P8C Wurth Elektronik Female RJ45 Modular Jack, STP, Vertical, PCB Mount Mount, WR-MJ 615008 Series
+F http://katalog.we-online.de/em/datasheet/615008144221.pdf
+$ENDCMP
+#
+$CMP 65600001009
+D Littelfuse 10A Base Mount Fuse Holder for mini Fuse, 250V
+F http://m.littelfuse.com/~/media/electronics/datasheets/fuse_blocks/littelfuse_fuse_block_656_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP 74LV1T125GVH
+D Translation - Voltage Levels TRANSLATION - VOLTAGE LEVELS
+$ENDCMP
+#
+$CMP ASE-24.000MHZ-ET
+D ABRACON - ASE-24.000MHZ-ET - Oscillator, 24 MHz, 100 ppm, SMD, 3.2mm x 2.5mm, LVCMOS, 3.3 V, ASE Series
+F https://abracon.com/Oscillators/ASEseries.pdf
+$ENDCMP
+#
+$CMP DS3231MZ_V+
+D Real Time Clock TRC/TCMO MEMS 8L
+F https://datasheets.maximintegrated.com/en/ds/DS3231M.pdf
+$ENDCMP
+#
+$CMP EC11EBB24C03
+D Alps 15 Pulse Incremental Mechanical Rotary Encoder with a 3.5 (Inner Shaft) mm, 6 (Outer Shaft) mm
+F https://componentsearchengine.com/Datasheets/2/EC11EBB24C03.pdf
+$ENDCMP
+#
+$CMP EMVE350ADA220MF55G
+D Aluminum Electrolytic Capacitors - SMD 35volts 22uF 6.3X5.2
+F https://media.digikey.com/pdf/Data%20Sheets/United%20Chemi-Con%20PDFs/MVE%20Series.pdf
+$ENDCMP
+#
+$CMP FDD6685
+D Fairchild FDD6685 P-channel MOSFET Transistor, 11 A, -30 V, 3-Pin TO-252
+K
+F http://www.onsemi.com/pub/Collateral/FDD6685-D.PDF
+$ENDCMP
+#
+$CMP IRF7319TRPBF
+D IRF7319TRPBF Dual N/P-Channel MOSFET, 4.9 A, 6.5 A, 30 V HEXFET, 8-Pin SOIC Infineon
+F https://www.infineon.com/dgdl/irf7319pbf.pdf?fileId=5546d462533600a4015355f5c82f1b41
+$ENDCMP
+#
+$CMP LMZ22005TZ_NOPB
+D Texas Instruments, LMZ22005TZ/NOPB DC-DC Converter 5A Adjustable, 0.8  6 V, 7-Pin TO-PMOD
+F http://www.ti.com/lit/gpn/lmz22005
+$ENDCMP
+#
+$CMP MCP23017T-E_SO
+D Interface - I/O Expanders 16bit Input/Output Exp I2C interface
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf
+$ENDCMP
+#
+$CMP NE555DR
+D Single Precision Timer
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP PRT-16763
+D Headers & Wire Housings Extended GPIO Female Header - 2x20 Pin (16mm/7.30mm)
+F https://cdn.sparkfun.com/assets/0/b/8/5/2/DS-16763-2_X_20_Pin_Extended_GPIO_Header_-_Female_-_16mm_7.30mm.pdf
+$ENDCMP
+#
+$CMP S8421-45R
+D Coin Cell Battery Holders EZ BDWR, SMT COIN CELL HOLDER CR2032
+$ENDCMP
+#
+$CMP SJ-3523-SMT-TR
+D Phone Connectors Audio Jacks
+F https://www.mouser.de/datasheet/2/670/sj_352x_smt-1779397.pdf
+$ENDCMP
+#
+$CMP SK54L-TP
+D Schottky Diodes & Rectifiers 40V, 5A
+$ENDCMP
+#
+$CMP TB001-500-04BE
+D Fixed Terminal Blocks Terminal block, screw type, 5.00, horizontal, 4 poles, CUI Blue, slotted screw, PCB mount
+F https://componentsearchengine.com/Datasheets/1/TB001-500-04BE.pdf
+$ENDCMP
+#
+$CMP TCA8418RTWR
+D I2C Controlled Keypad Scan IC With Integrated ESD Protection
+F http://componentsearchengine.com/Datasheets/3/TCA8418RTWR.pdf
+$ENDCMP
+#
+$CMP TL3301SPF260QG
+D SWITCH, TACTILE SPST 50mA, SMD GULL WING, FULL REEL; Product Range:TL3301 Series; Actuator Orientation:Top Actuated; Switch Mounting:Surface Mount; Actuator Style:Square Button; Actuating Force:260gf; Contact Rating:50mA at 12VDC RoHS Compliant: Yes
+F https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj9rNK2qfDsAhUUTBUIHRQCCCMQFjAAegQIAxAC&url=https%3A%2F%2Fwww.digikey.com%2Fen%2Fproducts%2Fdetail%2Fe-switch%2FTL3301SPF260QG%2F951367&usg=AOvVaw14Rpl1B4ot6i5KjXDn9E9
+$ENDCMP
+#
+$CMP WM8960CGEFL_V
+D Interface - CODECs Stereo CODEC with 1W DRIVER
+F https://componentsearchengine.com/Datasheets/1/WM8960CGEFL_V.pdf
+$ENDCMP
+#
+$CMP BAS16J,135
+D Diodes - General Purpose, Power, Switching Switching Diodes 1.5pF 550mW
+K
+F 
+$ENDCMP
+#
+$CMP 293D226X9035D2TE3
+D Solid Tantalum Surface Mount Chip Capacitors TANTAMOUNT(TM), Molded Case, Standard Industrial Grade
+K
+F http://www.vishay.com/doc?40002
+$ENDCMP
+#
+$CMP 293D476X0016D2TE3
+D Solid Tantalum Surface Mount Chip Capacitors TANTAMOUNT(TM), Molded Case, Standard Industrial Grade
+K
+F http://www.mouser.com/datasheet/2/427/293d-239871.pdf
+$ENDCMP
+#
+$CMP 293D107X0010C2TE3
+D Solid Tantalum Surface Mount Chip Capacitors TANTAMOUNT(TM), Molded Case, Standard Industrial Grade
+K
+F http://www.vishay.com/doc?40002
+$ENDCMP
+#
+$CMP M24C32-RDW6TP
+D STMICROELECTRONICS - M24C32-RDW6TP - EEPROM, 32KBIT, I2C, 1MHZ, TSSOP-8
+K
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/80/4e/8c/54/f2/63/4c/4a/CD00001012.pdf/files/CD00001012.pdf/jcr:content/translations/en.CD00001012.pdf
+$ENDCMP
+#
+$CMP TSX-3225_24.0000MF18X-C
+D Crystals XTAL MHZ +/-10PPM+/-18PPM-40 85C 18.0PF BULK - CUT TAPE
+K
+F https://support.epson.biz/td/api/doc_check.php?dl=brief_FA-238V_en.pdf
+$ENDCMP
+#
+$CMP NC12S0A0H06PNFA
+D Delphi NC06 Series Non-Isolated Point of Load DC/DC Power Modules: 12Vin, 0.9V~5.0Vout, 6A
+K
+F https://www.mouser.fi/datasheet/2/632/DS_NC12S06A-1141897.pdf
+$ENDCMP
+#
+$CMP B3F-1055
+D OMRON ELECTRONIC COMPONENTS - B3F-1055 - SWITCH, TACTILE, SPST-NO, 50mA, THOUGH HOLE
+K
+F https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf
+$ENDCMP
+#
+#End Doc Library
