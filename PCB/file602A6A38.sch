@@ -331,17 +331,6 @@ Wire Wire Line
 	1600 1600 1750 1600
 Wire Wire Line
 	1700 1700 1600 1700
-$Comp
-L power:+3.3V #PWR0146
-U 1 1 602CF37F
-P 1600 2450
-F 0 "#PWR0146" H 1600 2300 50  0001 C CNN
-F 1 "+3.3V" V 1615 2578 50  0000 L CNN
-F 2 "" H 1600 2450 50  0001 C CNN
-F 3 "" H 1600 2450 50  0001 C CNN
-	1    1600 2450
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	1850 2800 1650 2800
 Wire Wire Line
@@ -354,9 +343,9 @@ Wire Wire Line
 	1650 2100 1850 2100
 Connection ~ 1650 2450
 Text GLabel 6400 1500 0    50   Input ~ 0
-GPIO25
+ENC2_A1
 Text GLabel 6400 1700 0    50   Input ~ 0
-GPIO27
+ENC2_B1
 $Comp
 L Device:R_Small R31
 U 1 1 602DB3A7
@@ -368,34 +357,18 @@ F 3 "~" H 6600 2150 50  0001 C CNN
 	1    6600 2150
 	-1   0    0    1   
 $EndComp
-$Comp
-L power:+3.3V #PWR0149
-U 1 1 602DB8B1
-P 6550 2400
-F 0 "#PWR0149" H 6550 2250 50  0001 C CNN
-F 1 "+3.3V" H 6565 2573 50  0000 C CNN
-F 2 "" H 6550 2400 50  0001 C CNN
-F 3 "" H 6550 2400 50  0001 C CNN
-	1    6550 2400
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	6600 2250 6600 2400
 Wire Wire Line
-	6600 2400 6550 2400
-Wire Wire Line
 	6500 2150 6500 2400
-Wire Wire Line
-	6500 2400 6550 2400
-Connection ~ 6550 2400
 Wire Wire Line
 	6600 2050 6600 1800
 Wire Wire Line
 	6500 1950 6500 1700
 Text GLabel 6400 1600 0    50   Input ~ 0
-GPIO23
+ENC2_A2
 Text GLabel 6400 1800 0    50   Input ~ 0
-GPIO26
+ENC2_B2
 Wire Wire Line
 	6400 1700 6500 1700
 Wire Wire Line
@@ -458,9 +431,9 @@ F 3 "~" H 6500 2050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text GLabel 8850 1550 0    50   Input ~ 0
-GPIO13
+ENC3_A1
 Text GLabel 8850 1750 0    50   Input ~ 0
-GPIO10
+ENC3_B1
 $Comp
 L Device:R_Small R35
 U 1 1 6030276D
@@ -472,34 +445,18 @@ F 3 "~" H 9050 2200 50  0001 C CNN
 	1    9050 2200
 	-1   0    0    1   
 $EndComp
-$Comp
-L power:+3.3V #PWR0155
-U 1 1 60302773
-P 9000 2450
-F 0 "#PWR0155" H 9000 2300 50  0001 C CNN
-F 1 "+3.3V" H 9015 2623 50  0000 C CNN
-F 2 "" H 9000 2450 50  0001 C CNN
-F 3 "" H 9000 2450 50  0001 C CNN
-	1    9000 2450
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	9050 2300 9050 2450
 Wire Wire Line
-	9050 2450 9000 2450
-Wire Wire Line
 	8950 2200 8950 2450
-Wire Wire Line
-	8950 2450 9000 2450
-Connection ~ 9000 2450
 Wire Wire Line
 	9050 2100 9050 1850
 Wire Wire Line
 	8950 2000 8950 1750
 Text GLabel 8850 1650 0    50   Input ~ 0
-GPIO14
+ENC3_A2
 Text GLabel 8850 1850 0    50   Input ~ 0
-GPIO11
+ENC3_B2
 Wire Wire Line
 	8850 1750 8950 1750
 Wire Wire Line
@@ -536,26 +493,10 @@ F 3 "~" H 8950 1200 50  0001 C CNN
 	1    8950 1200
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+3.3V #PWR0156
-U 1 1 60302796
-P 9000 950
-F 0 "#PWR0156" H 9000 800 50  0001 C CNN
-F 1 "+3.3V" H 9015 1123 50  0000 C CNN
-F 2 "" H 9000 950 50  0001 C CNN
-F 3 "" H 9000 950 50  0001 C CNN
-	1    9000 950 
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8950 1100 8950 950 
 Wire Wire Line
-	8950 950  9000 950 
-Wire Wire Line
 	9050 1200 9050 950 
-Wire Wire Line
-	9050 950  9000 950 
-Connection ~ 9000 950 
 Wire Wire Line
 	8950 1300 8950 1550
 Wire Wire Line
@@ -578,9 +519,9 @@ F 3 "~" H 8950 2100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text GLabel 6350 3900 0    50   Input ~ 0
-GPIO05
+ENC4_B1
 Text GLabel 6350 3700 0    50   Input ~ 0
-GPIO03
+ENC4_A1
 $Comp
 L Device:R_Small R39
 U 1 1 6031EDBB
@@ -592,32 +533,16 @@ F 3 "~" H 6550 4350 50  0001 C CNN
 	1    6550 4350
 	-1   0    0    1   
 $EndComp
-$Comp
-L power:+3.3V #PWR0158
-U 1 1 6031EDC1
-P 6500 4600
-F 0 "#PWR0158" H 6500 4450 50  0001 C CNN
-F 1 "+3.3V" H 6515 4773 50  0000 C CNN
-F 2 "" H 6500 4600 50  0001 C CNN
-F 3 "" H 6500 4600 50  0001 C CNN
-	1    6500 4600
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	6550 4450 6550 4600
 Wire Wire Line
-	6550 4600 6500 4600
-Wire Wire Line
 	6450 4350 6450 4600
-Wire Wire Line
-	6450 4600 6500 4600
-Connection ~ 6500 4600
 Wire Wire Line
 	6550 4250 6550 4000
 Wire Wire Line
 	6450 4150 6450 3900
 Text GLabel 6350 4000 0    50   Input ~ 0
-GPIO12
+ENC4_B2
 Wire Wire Line
 	6350 3900 6450 3900
 Wire Wire Line
@@ -654,26 +579,10 @@ F 3 "~" H 6450 3350 50  0001 C CNN
 	1    6450 3350
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+3.3V #PWR0159
-U 1 1 6031EDE4
-P 6500 3100
-F 0 "#PWR0159" H 6500 2950 50  0001 C CNN
-F 1 "+3.3V" H 6515 3273 50  0000 C CNN
-F 2 "" H 6500 3100 50  0001 C CNN
-F 3 "" H 6500 3100 50  0001 C CNN
-	1    6500 3100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6450 3250 6450 3100
 Wire Wire Line
-	6450 3100 6500 3100
-Wire Wire Line
 	6550 3350 6550 3100
-Wire Wire Line
-	6550 3100 6500 3100
-Connection ~ 6500 3100
 Wire Wire Line
 	6450 3450 6450 3700
 Wire Wire Line
@@ -696,9 +605,9 @@ F 3 "~" H 6450 4250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text GLabel 8850 3700 0    50   Input ~ 0
-GPIO04
+ENC5_A1
 Text GLabel 8850 3900 0    50   Input ~ 0
-GPIO07
+ENC5_B1
 $Comp
 L Device:R_Small R43
 U 1 1 60326DDE
@@ -710,34 +619,18 @@ F 3 "~" H 9050 4350 50  0001 C CNN
 	1    9050 4350
 	-1   0    0    1   
 $EndComp
-$Comp
-L power:+3.3V #PWR0160
-U 1 1 60326DE4
-P 9000 4600
-F 0 "#PWR0160" H 9000 4450 50  0001 C CNN
-F 1 "+3.3V" H 9015 4773 50  0000 C CNN
-F 2 "" H 9000 4600 50  0001 C CNN
-F 3 "" H 9000 4600 50  0001 C CNN
-	1    9000 4600
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	9050 4450 9050 4600
 Wire Wire Line
-	9050 4600 9000 4600
-Wire Wire Line
 	8950 4350 8950 4600
-Wire Wire Line
-	8950 4600 9000 4600
-Connection ~ 9000 4600
 Wire Wire Line
 	9050 4250 9050 4000
 Wire Wire Line
 	8950 4150 8950 3900
 Text GLabel 8850 3800 0    50   Input ~ 0
-GPIO02
+ENC5_A2
 Text GLabel 8850 4000 0    50   Input ~ 0
-GPIO00
+ENC5_B2
 Wire Wire Line
 	8850 3900 8950 3900
 Wire Wire Line
@@ -774,26 +667,10 @@ F 3 "~" H 8950 3350 50  0001 C CNN
 	1    8950 3350
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+3.3V #PWR0161
-U 1 1 60326E07
-P 9000 3100
-F 0 "#PWR0161" H 9000 2950 50  0001 C CNN
-F 1 "+3.3V" H 9015 3273 50  0000 C CNN
-F 2 "" H 9000 3100 50  0001 C CNN
-F 3 "" H 9000 3100 50  0001 C CNN
-	1    9000 3100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8950 3250 8950 3100
 Wire Wire Line
-	8950 3100 9000 3100
-Wire Wire Line
 	9050 3350 9050 3100
-Wire Wire Line
-	9050 3100 9000 3100
-Connection ~ 9000 3100
 Wire Wire Line
 	8950 3450 8950 3700
 Wire Wire Line
@@ -816,23 +693,10 @@ F 3 "~" H 8950 4250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text GLabel 6350 3800 0    50   Input ~ 0
-GPIO06
+ENC4_A2
 Connection ~ 6600 900 
 Wire Wire Line
 	6500 900  6600 900 
-Wire Wire Line
-	6600 750  6600 900 
-$Comp
-L power:+3.3V #PWR0151
-U 1 1 60522FD2
-P 6600 750
-F 0 "#PWR0151" H 6600 600 50  0001 C CNN
-F 1 "+3.3V" H 6615 923 50  0000 C CNN
-F 2 "" H 6600 750 50  0001 C CNN
-F 3 "" H 6600 750 50  0001 C CNN
-	1    6600 750 
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7250 2100 7250 2050
 $Comp
@@ -873,7 +737,7 @@ F 3 "~" H 7750 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6600 900  7750 900 
+	6600 900  7100 900 
 Wire Wire Line
 	7750 900  7750 1100
 Wire Wire Line
@@ -917,7 +781,7 @@ Wire Wire Line
 	7700 3100 7700 3250
 Connection ~ 6550 3100
 Wire Wire Line
-	6550 3100 7700 3100
+	6550 3100 7050 3100
 Wire Wire Line
 	7700 3450 7700 3800
 Wire Wire Line
@@ -926,7 +790,7 @@ Wire Wire Line
 	10200 3100 10200 3250
 Connection ~ 9050 3100
 Wire Wire Line
-	9050 3100 10200 3100
+	9050 3100 9550 3100
 Wire Wire Line
 	10200 3450 10200 3800
 Wire Wire Line
@@ -935,7 +799,7 @@ Wire Wire Line
 	10200 950  10200 1100
 Connection ~ 9050 950 
 Wire Wire Line
-	9050 950  10200 950 
+	9050 950  9550 950 
 Wire Wire Line
 	10200 1300 10200 1650
 Wire Wire Line
@@ -960,4 +824,141 @@ ENC5_BTN
 Wire Wire Line
 	10450 3800 10200 3800
 Connection ~ 10200 3800
+$Comp
+L power:+3V3 #PWR0156
+U 1 1 603A7D0F
+P 1600 2450
+F 0 "#PWR0156" H 1600 2300 50  0001 C CNN
+F 1 "+3V3" V 1615 2578 50  0000 L CNN
+F 2 "" H 1600 2450 50  0001 C CNN
+F 3 "" H 1600 2450 50  0001 C CNN
+	1    1600 2450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8950 950  9050 950 
+Wire Wire Line
+	8950 2450 9000 2450
+Wire Wire Line
+	8950 3100 9050 3100
+Wire Wire Line
+	6450 3100 6550 3100
+Wire Wire Line
+	6500 2400 6550 2400
+Wire Wire Line
+	6450 4600 6500 4600
+Wire Wire Line
+	8950 4600 9000 4600
+$Comp
+L power:+3V3 #PWR0158
+U 1 1 603A8731
+P 6500 4600
+F 0 "#PWR0158" H 6500 4450 50  0001 C CNN
+F 1 "+3V3" H 6515 4773 50  0000 C CNN
+F 2 "" H 6500 4600 50  0001 C CNN
+F 3 "" H 6500 4600 50  0001 C CNN
+	1    6500 4600
+	-1   0    0    1   
+$EndComp
+Connection ~ 6500 4600
+Wire Wire Line
+	6500 4600 6550 4600
+$Comp
+L power:+3V3 #PWR0159
+U 1 1 603A8F10
+P 9000 4600
+F 0 "#PWR0159" H 9000 4450 50  0001 C CNN
+F 1 "+3V3" H 9015 4773 50  0000 C CNN
+F 2 "" H 9000 4600 50  0001 C CNN
+F 3 "" H 9000 4600 50  0001 C CNN
+	1    9000 4600
+	-1   0    0    1   
+$EndComp
+Connection ~ 9000 4600
+Wire Wire Line
+	9000 4600 9050 4600
+$Comp
+L power:+3V3 #PWR0160
+U 1 1 603A9385
+P 9000 2450
+F 0 "#PWR0160" H 9000 2300 50  0001 C CNN
+F 1 "+3V3" H 9015 2623 50  0000 C CNN
+F 2 "" H 9000 2450 50  0001 C CNN
+F 3 "" H 9000 2450 50  0001 C CNN
+	1    9000 2450
+	-1   0    0    1   
+$EndComp
+Connection ~ 9000 2450
+Wire Wire Line
+	9000 2450 9050 2450
+$Comp
+L power:+3V3 #PWR0161
+U 1 1 603A9A9D
+P 6550 2400
+F 0 "#PWR0161" H 6550 2250 50  0001 C CNN
+F 1 "+3V3" H 6565 2573 50  0000 C CNN
+F 2 "" H 6550 2400 50  0001 C CNN
+F 3 "" H 6550 2400 50  0001 C CNN
+	1    6550 2400
+	-1   0    0    1   
+$EndComp
+Connection ~ 6550 2400
+Wire Wire Line
+	6550 2400 6600 2400
+$Comp
+L power:+3V3 #PWR0163
+U 1 1 603AA07F
+P 7100 900
+F 0 "#PWR0163" H 7100 750 50  0001 C CNN
+F 1 "+3V3" H 7115 1073 50  0000 C CNN
+F 2 "" H 7100 900 50  0001 C CNN
+F 3 "" H 7100 900 50  0001 C CNN
+	1    7100 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0165
+U 1 1 603AA7DE
+P 9550 950
+F 0 "#PWR0165" H 9550 800 50  0001 C CNN
+F 1 "+3V3" H 9565 1123 50  0000 C CNN
+F 2 "" H 9550 950 50  0001 C CNN
+F 3 "" H 9550 950 50  0001 C CNN
+	1    9550 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0166
+U 1 1 603AAF03
+P 9550 3100
+F 0 "#PWR0166" H 9550 2950 50  0001 C CNN
+F 1 "+3V3" H 9565 3273 50  0000 C CNN
+F 2 "" H 9550 3100 50  0001 C CNN
+F 3 "" H 9550 3100 50  0001 C CNN
+	1    9550 3100
+	1    0    0    -1  
+$EndComp
+Connection ~ 9550 3100
+Wire Wire Line
+	9550 3100 10200 3100
+$Comp
+L power:+3V3 #PWR0167
+U 1 1 603ABE8E
+P 7050 3100
+F 0 "#PWR0167" H 7050 2950 50  0001 C CNN
+F 1 "+3V3" H 7065 3273 50  0000 C CNN
+F 2 "" H 7050 3100 50  0001 C CNN
+F 3 "" H 7050 3100 50  0001 C CNN
+	1    7050 3100
+	1    0    0    -1  
+$EndComp
+Connection ~ 7050 3100
+Wire Wire Line
+	7050 3100 7700 3100
+Connection ~ 9550 950 
+Wire Wire Line
+	9550 950  10200 950 
+Connection ~ 7100 900 
+Wire Wire Line
+	7100 900  7750 900 
 $EndSCHEMATC

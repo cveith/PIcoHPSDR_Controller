@@ -104,16 +104,38 @@ $EndComp
 $Comp
 L Mechanical:MountingHole H10
 U 1 1 601EF31F
-P 850 3250
-F 0 "H10" H 950 3296 50  0000 L CNN
-F 1 "MountingHole" H 950 3205 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 850 3250 50  0001 C CNN
-F 3 "~" H 850 3250 50  0001 C CNN
-	1    850  3250
+P 1350 3200
+F 0 "H10" H 1450 3246 50  0000 L CNN
+F 1 "MountingHole" H 1450 3155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 1350 3200 50  0001 C CNN
+F 3 "~" H 1350 3200 50  0001 C CNN
+	1    1350 3200
 	1    0    0    -1  
 $EndComp
 Text Notes 1350 2100 0    50   ~ 0
 Mainboard Mounting
 Text Notes 1350 1050 0    50   ~ 0
 Display Mounting
+$Comp
+L Mechanical:MountingHole H9
+U 1 1 60285390
+P 1350 3450
+F 0 "H9" H 1450 3496 50  0000 L CNN
+F 1 "MountingHole" H 1450 3405 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 1350 3450 50  0001 C CNN
+F 3 "~" H 1350 3450 50  0001 C CNN
+	1    1350 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H11
+U 1 1 6028614A
+P 1350 3700
+F 0 "H11" H 1450 3746 50  0000 L CNN
+F 1 "MountingHole" H 1450 3655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 1350 3700 50  0001 C CNN
+F 3 "~" H 1350 3700 50  0001 C CNN
+	1    1350 3700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

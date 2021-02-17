@@ -164,4 +164,22 @@ D Interface - CODECs Stereo CODEC with 1W DRIVER
 F https://componentsearchengine.com/Datasheets/1/WM8960CGEFL_V.pdf
 $ENDCMP
 #
+$CMP 615008143721
+D Modular Jack RJ45 8P8C Right angle Wurth Elektronik Female RJ45 Modular Jack, STP, Horizontal, PCB Mount Mount, WR-MJ 615008 Series
+K
+F http://katalog.we-online.de/em/datasheet/615008143721.pdf
+$ENDCMP
+#
+$CMP ACJS-MHDCM
+D Phone Connectors 1/4"CMPCT Pigybac HOR CHASSIS CONN
+K
+F http://www.amphenolaudio.com/wp-content/uploads/2015/07/55010660000110_acjs-mhdcm.pdf
+$ENDCMP
+#
+$CMP BAT-HLD-001
+D Coin Cell Battery Holders Linx CR2032 Battery Holder
+K
+F 
+$ENDCMP
+#
 #End Doc Library

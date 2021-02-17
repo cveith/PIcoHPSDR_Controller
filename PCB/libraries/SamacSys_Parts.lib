@@ -1014,4 +1014,81 @@ X DGND 9 400 -1800 200 U 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
+#SamacSys ECAD Model 615008143721
+#/265619/418241/2.48/8/4/Connector
+DEF 615008143721 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "615008143721" 650 200 50 H V L CNN
+F2 "615008143721" 650 100 50 H I L CNN
+F3 "http://katalog.we-online.de/em/datasheet/615008143721.pdf" 650 0 50 H I L CNN
+F4 "Modular Jack RJ45 8P8C Right angle Wurth Elektronik Female RJ45 Modular Jack, STP, Horizontal, PCB Mount Mount, WR-MJ 615008 Series" 650 -100 50 H I L CNN "Description"
+F5 "12.8" 650 -200 50 H I L CNN "Height"
+F6 "710-615008143721" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/615008143721?qs=8qEfIxKlfRk%252BMh7BhxaORg%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Wurth Elektronik" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "615008143721" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 800 0 200 L 50 50 0 0 P
+X 3 3 0 -100 200 R 50 50 0 0 P
+X 4 4 800 -100 200 L 50 50 0 0 P
+X 5 5 0 -200 200 R 50 50 0 0 P
+X 6 6 800 -200 200 L 50 50 0 0 P
+X 7 7 0 -300 200 R 50 50 0 0 P
+X 8 8 800 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model ACJS-MHDCM
+#/351217/418241/2.48/12/4/Connector
+DEF ACJS-MHDCM J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "ACJS-MHDCM" 750 200 50 H V L CNN
+F2 "ACJSMHDCM" 750 100 50 H I L CNN
+F3 "http://www.amphenolaudio.com/wp-content/uploads/2015/07/55010660000110_acjs-mhdcm.pdf" 750 0 50 H I L CNN
+F4 "Phone Connectors 1/4\"CMPCT Pigybac HOR CHASSIS CONN" 750 -100 50 H I L CNN "Description"
+F5 "16.55" 750 -200 50 H I L CNN "Height"
+F6 "523-ACJS-MHDCM" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Amphenol-Audio/ACJS-MHDCM?qs=t8%2F5FiDdxGbXn87JOanwuQ%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Amphenol" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "ACJS-MHDCM" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+X 5 5 0 -400 200 R 50 50 0 0 P
+X 6 6 0 -500 200 R 50 50 0 0 P
+X 7 7 900 0 200 L 50 50 0 0 P
+X 8 8 900 -100 200 L 50 50 0 0 P
+X 9 9 900 -200 200 L 50 50 0 0 P
+X 10 10 900 -300 200 L 50 50 0 0 P
+X 11 11 900 -400 200 L 50 50 0 0 P
+X 12 12 900 -500 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -600 200 -600 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model BAT-HLD-001
+#/577251/418241/2.48/3/4/Undefined or Miscellaneous
+DEF BAT-HLD-001 U 0 30 Y Y 1 F N
+F0 "U" 650 300 50 H V L CNN
+F1 "BAT-HLD-001" 650 200 50 H V L CNN
+F2 "BATHLD001" 650 100 50 H I L CNN
+F3 "" 650 0 50 H I L CNN
+F4 "Coin Cell Battery Holders Linx CR2032 Battery Holder" 650 -100 50 H I L CNN "Description"
+F5 "4" 650 -200 50 H I L CNN "Height"
+F6 "712-BAT-HLD-001" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Linx-Technologies/BAT-HLD-001/?qs=K5ta8V%252BWhta7hbVGfm4dqA%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Linx Technologies" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "BAT-HLD-001" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 -200 200 R 50 50 0 0 P
+X 2 2 0 0 200 R 50 50 0 0 P
+X 3 3 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
 #End Library
