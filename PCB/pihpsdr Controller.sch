@@ -244,6 +244,7 @@ F 6 "579-MCP23017T-E/SO" H 6300 4200 50  0001 L CNN "Mouser Part Number"
 F 7 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP23017T-E-SO/?qs=usxtMOJb1RylPfT%252BJtgE3Q%3D%3D" H 6300 4100 50  0001 L CNN "Mouser Price/Stock"
 F 8 "Microchip" H 6300 4000 50  0001 L CNN "Manufacturer_Name"
 F 9 "MCP23017T-E/SO" H 6300 3900 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "C47023" H 5250 4500 50  0001 C CNN "LCSC"
 	1    5250 4500
 	1    0    0    -1  
 $EndComp
@@ -261,6 +262,7 @@ F 6 "579-MCP23017T-E/SO" H 2450 4200 50  0001 L CNN "Mouser Part Number"
 F 7 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP23017T-E-SO/?qs=usxtMOJb1RylPfT%252BJtgE3Q%3D%3D" H 2450 4100 50  0001 L CNN "Mouser Price/Stock"
 F 8 "Microchip" H 2450 4000 50  0001 L CNN "Manufacturer_Name"
 F 9 "MCP23017T-E/SO" H 2450 3900 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "C47023" H 1400 4500 50  0001 C CNN "LCSC"
 	1    1400 4500
 	1    0    0    -1  
 $EndComp
@@ -333,16 +335,20 @@ F 0 "R3" H 3209 5146 50  0000 L CNN
 F 1 "10k" H 3209 5055 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3150 5100 50  0001 C CNN
 F 3 "~" H 3150 5100 50  0001 C CNN
+F 4 "71-CRCW080510K0FKEAC" H 3150 5100 50  0001 C CNN "Mouser Part Number"
+F 5 "Vishay" H 3150 5100 50  0001 C CNN "Manufacturer_Name"
+F 6 "CRCW080510K0FKEAC" H 3150 5100 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "C17414" H 3150 5100 50  0001 C CNN "LCSC"
 	1    3150 5100
 	1    0    0    -1  
 $EndComp
-Text GLabel 5250 4500 0    50   Input ~ 0
-MIC_FAST_SCAN
-Text GLabel 5250 4700 0    50   Input ~ 0
-MIC_BTN_UP
 Text GLabel 5250 4800 0    50   Input ~ 0
-MIC_BTN_DOWN
+MIC_FAST_SCAN
 Text GLabel 5250 4600 0    50   Input ~ 0
+MIC_BTN_UP
+Text GLabel 5250 4500 0    50   Input ~ 0
+MIC_BTN_DOWN
+Text GLabel 5250 4700 0    50   Input ~ 0
 MIC_PTT
 Text GLabel 6450 5300 2    50   Input ~ 0
 IC2_INT
@@ -376,6 +382,10 @@ F 0 "R16" H 7259 5396 50  0000 L CNN
 F 1 "10k" H 7259 5305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7200 5350 50  0001 C CNN
 F 3 "~" H 7200 5350 50  0001 C CNN
+F 4 "C17414" H 7200 5350 50  0001 C CNN "LCSC"
+F 5 "Vishay" H 7200 5350 50  0001 C CNN "Manufacturer_Name"
+F 6 "CRCW080510K0FKEAC" H 7200 5350 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "71-CRCW080510K0FKEAC" H 7200 5350 50  0001 C CNN "Mouser Part Number"
 	1    7200 5350
 	1    0    0    -1  
 $EndComp
@@ -424,6 +434,10 @@ F 0 "R15" H 3459 5146 50  0000 L CNN
 F 1 "10k" H 3459 5055 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3400 5100 50  0001 C CNN
 F 3 "~" H 3400 5100 50  0001 C CNN
+F 4 "C17414" H 3400 5100 50  0001 C CNN "LCSC"
+F 5 "Vishay" H 3400 5100 50  0001 C CNN "Manufacturer_Name"
+F 6 "CRCW080510K0FKEAC" H 3400 5100 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "71-CRCW080510K0FKEAC" H 3400 5100 50  0001 C CNN "Mouser Part Number"
 	1    3400 5100
 	1    0    0    -1  
 $EndComp
@@ -453,6 +467,10 @@ F 0 "R17" H 7509 5396 50  0000 L CNN
 F 1 "10k" H 7509 5305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7450 5350 50  0001 C CNN
 F 3 "~" H 7450 5350 50  0001 C CNN
+F 4 "C17414" H 7450 5350 50  0001 C CNN "LCSC"
+F 5 "Vishay" H 7450 5350 50  0001 C CNN "Manufacturer_Name"
+F 6 "CRCW080510K0FKEAC" H 7450 5350 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "71-CRCW080510K0FKEAC" H 7450 5350 50  0001 C CNN "Mouser Part Number"
 	1    7450 5350
 	1    0    0    -1  
 $EndComp
@@ -477,6 +495,10 @@ F 0 "C1" H 1042 5446 50  0000 L CNN
 F 1 "10uF / 10V" H 1042 5355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 950 5400 50  0001 C CNN
 F 3 "~" H 950 5400 50  0001 C CNN
+F 4 "C91245" H 950 5400 50  0001 C CNN "LCSC"
+F 5 "Samsung Electro-Mechanics" H 950 5400 50  0001 C CNN "Manufacturer_Name"
+F 6 "CL21A106MPFNNNE" H 950 5400 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "187-CL21A106MPFNNNE" H 950 5400 50  0001 C CNN "Mouser Part Number"
 	1    950  5400
 	1    0    0    -1  
 $EndComp
@@ -502,6 +524,10 @@ F 0 "C15" H 2842 5646 50  0000 L CNN
 F 1 "10uF / 10V" H 2842 5555 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2750 5600 50  0001 C CNN
 F 3 "~" H 2750 5600 50  0001 C CNN
+F 4 "C91245" H 2750 5600 50  0001 C CNN "LCSC"
+F 5 "Samsung Electro-Mechanics" H 2750 5600 50  0001 C CNN "Manufacturer_Name"
+F 6 "CL21A106MPFNNNE" H 2750 5600 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "187-CL21A106MPFNNNE" H 2750 5600 50  0001 C CNN "Mouser Part Number"
 	1    2750 5600
 	1    0    0    -1  
 $EndComp
@@ -542,6 +568,10 @@ F 0 "C16" H 4892 5446 50  0000 L CNN
 F 1 "10uF / 10V" H 4892 5355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4800 5400 50  0001 C CNN
 F 3 "~" H 4800 5400 50  0001 C CNN
+F 4 "C91245" H 4800 5400 50  0001 C CNN "LCSC"
+F 5 "Samsung Electro-Mechanics" H 4800 5400 50  0001 C CNN "Manufacturer_Name"
+F 6 "CL21A106MPFNNNE" H 4800 5400 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "187-CL21A106MPFNNNE" H 4800 5400 50  0001 C CNN "Mouser Part Number"
 	1    4800 5400
 	1    0    0    -1  
 $EndComp
@@ -569,6 +599,10 @@ F 0 "C35" H 7042 5696 50  0000 L CNN
 F 1 "10uF / 10V" H 7042 5605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6950 5650 50  0001 C CNN
 F 3 "~" H 6950 5650 50  0001 C CNN
+F 4 "C91245" H 6950 5650 50  0001 C CNN "LCSC"
+F 5 "Samsung Electro-Mechanics" H 6950 5650 50  0001 C CNN "Manufacturer_Name"
+F 6 "CL21A106MPFNNNE" H 6950 5650 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "187-CL21A106MPFNNNE" H 6950 5650 50  0001 C CNN "Mouser Part Number"
 	1    6950 5650
 	1    0    0    -1  
 $EndComp
@@ -802,6 +836,9 @@ F 0 "IC8" H 5750 3315 50  0000 C CNN
 F 1 "Pico" H 5750 3224 50  0000 C CNN
 F 2 "MCU_RaspberryPi_and_Boards:RPi_Pico_SMD_TH" V 5750 2100 50  0001 C CNN
 F 3 "" H 5750 2100 50  0001 C CNN
+F 4 "474-DEV-17829" H 5750 2100 50  0001 C CNN "Mouser Part Number"
+F 5 "Raspberry Pi Foundation" H 5750 2100 50  0001 C CNN "Manufacturer_Name"
+F 6 "DEV-17829" H 5750 2100 50  0001 C CNN "Manufacturer_Part_Number"
 	1    5750 2100
 	1    0    0    -1  
 $EndComp
@@ -898,13 +935,6 @@ NoConn ~ 2350 2400
 NoConn ~ 2350 2300
 NoConn ~ 2350 2100
 NoConn ~ 2350 2000
-NoConn ~ 6450 5000
-NoConn ~ 6450 5100
-NoConn ~ 6450 5200
-NoConn ~ 5250 5200
-NoConn ~ 5250 5100
-NoConn ~ 5250 5000
-NoConn ~ 5250 4900
 Wire Wire Line
 	6450 5800 7450 5800
 Wire Wire Line

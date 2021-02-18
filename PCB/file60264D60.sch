@@ -52,6 +52,9 @@ F 3 "" H 9250 1250 50  0001 L BNN
 F 4 "Manufacturer recommendations" H 9250 1250 50  0001 L BNN "STANDARD"
 F 5 "CUI INC" H 9250 1250 50  0001 L BNN "MANUFACTURER"
 F 6 "1.02" H 9250 1250 50  0001 L BNN "PART_REV"
+F 7 "CUI Devices" H 9250 1250 50  0001 C CNN "Manufacturer_Name"
+F 8 "PJ-102AH" H 9250 1250 50  0001 C CNN "Manufacturer_Part_Number"
+F 9 "490-PJ-102AH" H 9250 1250 50  0001 C CNN "Mouser Part Number"
 	1    9250 1250
 	-1   0    0    1   
 $EndComp
@@ -62,9 +65,13 @@ L Device:C_Small C12
 U 1 1 6027ABA3
 P 8250 1250
 F 0 "C12" H 8342 1296 50  0000 L CNN
-F 1 "100nF 35V" H 8342 1205 50  0000 L CNN
+F 1 "0,1uF / 50V" H 8342 1205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8250 1250 50  0001 C CNN
 F 3 "~" H 8250 1250 50  0001 C CNN
+F 4 "C62912" H 8250 1250 50  0001 C CNN "LCSC"
+F 5 "Samsung Electro-Mechanics" H 8250 1250 50  0001 C CNN "Manufacturer_Name"
+F 6 "CL21B104KBCSFNC" H 8250 1250 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "187-CL21B104KBCSFNC" H 8250 1250 50  0001 C CNN "Mouser Part Number"
 	1    8250 1250
 	1    0    0    -1  
 $EndComp
@@ -73,9 +80,12 @@ L Device:C_Small C14
 U 1 1 6027F26A
 P 8550 1250
 F 0 "C14" H 8642 1296 50  0000 L CNN
-F 1 "10uF/35V" H 8642 1205 50  0000 L CNN
+F 1 "10uF / 35V" H 8642 1205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8550 1250 50  0001 C CNN
 F 3 "~" H 8550 1250 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 8550 1250 50  0001 C CNN "Manufacturer_Name"
+F 5 "CL21A106KBYQNNE" H 8550 1250 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "187-CL21A106KBYQNNE" H 8550 1250 50  0001 C CNN "Mouser Part Number"
 	1    8550 1250
 	1    0    0    -1  
 $EndComp
@@ -87,6 +97,10 @@ F 0 "R30" H 8941 4404 50  0000 R CNN
 F 1 "1,5k" H 8941 4495 50  0000 R CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9000 4450 50  0001 C CNN
 F 3 "~" H 9000 4450 50  0001 C CNN
+F 4 "C4310" H 9000 4450 50  0001 C CNN "LCSC"
+F 5 "Vishay" H 9000 4450 50  0001 C CNN "Manufacturer_Name"
+F 6 "CRCW08051K50FKEA" H 9000 4450 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "71-CRCW0805-1.5K-E3" H 9000 4450 50  0001 C CNN "Mouser Part Number"
 	1    9000 4450
 	-1   0    0    1   
 $EndComp
@@ -158,6 +172,7 @@ F 6 "74-293D226X9035D2TE3" H 7350 1150 50  0001 L CNN "Mouser Part Number"
 F 7 "https://www.mouser.co.uk/ProductDetail/Vishay-Sprague/293D226X9035D2TE3?qs=CH3Q5FKf4qA53jIcx1u4FA%3D%3D" H 7350 1050 50  0001 L CNN "Mouser Price/Stock"
 F 8 "Vishay" H 7350 950 50  0001 L CNN "Manufacturer_Name"
 F 9 "293D226X9035D2TE3" H 7350 850 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "C167035" H 7000 1500 50  0001 C CNN "LCSC"
 	1    7000 1500
 	1    0    0    -1  
 $EndComp
@@ -221,9 +236,13 @@ L Device:C_Small C25
 U 1 1 605D85C2
 P 6300 1450
 F 0 "C25" H 6392 1496 50  0000 L CNN
-F 1 "100nF 35V" H 6392 1405 50  0000 L CNN
+F 1 "0,1uF / 50V" H 6392 1405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6300 1450 50  0001 C CNN
 F 3 "~" H 6300 1450 50  0001 C CNN
+F 4 "C62912" H 6300 1450 50  0001 C CNN "LCSC"
+F 5 "Samsung Electro-Mechanics" H 6300 1450 50  0001 C CNN "Manufacturer_Name"
+F 6 "CL21B104KBCSFNC" H 6300 1450 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "187-CL21B104KBCSFNC" H 6300 1450 50  0001 C CNN "Mouser Part Number"
 	1    6300 1450
 	1    0    0    -1  
 $EndComp
@@ -254,6 +273,7 @@ F 6 "512-FDD6685" H 3050 1800 50  0001 L CNN "Mouser Part Number"
 F 7 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/FDD6685?qs=lOBONITtCKxDT3dikVb2%252Bg%3D%3D" H 3050 1700 50  0001 L CNN "Mouser Price/Stock"
 F 8 "ON Semiconductor" H 3050 1600 50  0001 L CNN "Manufacturer_Name"
 F 9 "FDD6685" H 3050 1500 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "C10866" H 2600 2250 50  0001 C CNN "LCSC"
 	1    2600 2250
 	0    1    -1   0   
 $EndComp
@@ -271,6 +291,7 @@ F 6 "512-2N7002K" H 3350 2200 50  0001 L CNN "Mouser Part Number"
 F 7 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/2N7002K/?qs=iS%252BvaFGfLorx0keKeEIrfg%3D%3D" H 3350 2100 50  0001 L CNN "Mouser Price/Stock"
 F 8 "ON Semiconductor" H 3350 2000 50  0001 L CNN "Manufacturer_Name"
 F 9 "2N7002K" H 3350 1900 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "C116584" H 2900 2650 50  0001 C CNN "LCSC"
 	1    2900 2650
 	-1   0    0    -1  
 $EndComp
@@ -292,9 +313,13 @@ L Device:C_Small C21
 U 1 1 605E1FEF
 P 3150 2850
 F 0 "C21" H 3242 2896 50  0000 L CNN
-F 1 "100nF 35V" H 3242 2805 50  0000 L CNN
+F 1 "0,1uF / 50V" H 3242 2805 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3150 2850 50  0001 C CNN
 F 3 "~" H 3150 2850 50  0001 C CNN
+F 4 "C62912" H 3150 2850 50  0001 C CNN "LCSC"
+F 5 "Samsung Electro-Mechanics" H 3150 2850 50  0001 C CNN "Manufacturer_Name"
+F 6 "CL21B104KBCSFNC" H 3150 2850 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "187-CL21B104KBCSFNC" H 3150 2850 50  0001 C CNN "Mouser Part Number"
 	1    3150 2850
 	1    0    0    -1  
 $EndComp
@@ -306,6 +331,10 @@ F 0 "R57" V 3154 2650 50  0000 C CNN
 F 1 "180K" V 3245 2650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3350 2650 50  0001 C CNN
 F 3 "~" H 3350 2650 50  0001 C CNN
+F 4 "C17501" H 3350 2650 50  0001 C CNN "LCSC"
+F 5 "Vishay" H 3350 2650 50  0001 C CNN "Manufacturer_Name"
+F 6 "CRCW0805180KFKEAC" H 3350 2650 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "71-CRCW0805180KFKEAC" H 3350 2650 50  0001 C CNN "Mouser Part Number"
 	1    3350 2650
 	0    1    1    0   
 $EndComp
@@ -314,9 +343,12 @@ L Device:C_Small C20
 U 1 1 605E5325
 P 3150 2200
 F 0 "C20" H 3242 2246 50  0000 L CNN
-F 1 "10uF 35V" H 3242 2155 50  0000 L CNN
+F 1 "10uF / 35V" H 3242 2155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3150 2200 50  0001 C CNN
 F 3 "~" H 3150 2200 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 3150 2200 50  0001 C CNN "Manufacturer_Name"
+F 5 "CL21A106KBYQNNE" H 3150 2200 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "187-CL21A106KBYQNNE" H 3150 2200 50  0001 C CNN "Mouser Part Number"
 	1    3150 2200
 	1    0    0    -1  
 $EndComp
@@ -344,6 +376,10 @@ F 0 "R58" H 3641 2154 50  0000 R CNN
 F 1 "100K" H 3641 2245 50  0000 R CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3700 2200 50  0001 C CNN
 F 3 "~" H 3700 2200 50  0001 C CNN
+F 4 "C17407" H 3700 2200 50  0001 C CNN "LCSC"
+F 5 "Vishay" H 3700 2200 50  0001 C CNN "Manufacturer_Name"
+F 6 "CRCW0805100KFKEAC" H 3700 2200 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "71-CRCW0805100KFKEAC" H 3700 2200 50  0001 C CNN "Mouser Part Number"
 	1    3700 2200
 	-1   0    0    1   
 $EndComp
@@ -418,6 +454,10 @@ F 0 "R55" H 841 2104 50  0000 R CNN
 F 1 "10k" H 841 2195 50  0000 R CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 900 2150 50  0001 C CNN
 F 3 "~" H 900 2150 50  0001 C CNN
+F 4 "C17414" H 900 2150 50  0001 C CNN "LCSC"
+F 5 "Vishay" H 900 2150 50  0001 C CNN "Manufacturer_Name"
+F 6 "CRCW080510K0FKEAC" H 900 2150 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "71-CRCW080510K0FKEAC" H 900 2150 50  0001 C CNN "Mouser Part Number"
 	1    900  2150
 	-1   0    0    1   
 $EndComp
@@ -431,6 +471,10 @@ F 0 "R56" H 1291 2104 50  0000 R CNN
 F 1 "100K" H 1291 2195 50  0000 R CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1350 2150 50  0001 C CNN
 F 3 "~" H 1350 2150 50  0001 C CNN
+F 4 "C17407" H 1350 2150 50  0001 C CNN "LCSC"
+F 5 "Vishay" H 1350 2150 50  0001 C CNN "Manufacturer_Name"
+F 6 "CRCW0805100KFKEAC" H 1350 2150 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "71-CRCW0805100KFKEAC" H 1350 2150 50  0001 C CNN "Mouser Part Number"
 	1    1350 2150
 	-1   0    0    1   
 $EndComp
@@ -439,9 +483,13 @@ L Device:C_Small C19
 U 1 1 606169FD
 P 1800 2150
 F 0 "C19" H 1892 2196 50  0000 L CNN
-F 1 "100nF" H 1892 2105 50  0000 L CNN
+F 1 "0,1uF / 50V" H 1892 2105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1800 2150 50  0001 C CNN
 F 3 "~" H 1800 2150 50  0001 C CNN
+F 4 "C62912" H 1800 2150 50  0001 C CNN "LCSC"
+F 5 "Samsung Electro-Mechanics" H 1800 2150 50  0001 C CNN "Manufacturer_Name"
+F 6 "CL21B104KBCSFNC" H 1800 2150 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "187-CL21B104KBCSFNC" H 1800 2150 50  0001 C CNN "Mouser Part Number"
 	1    1800 2150
 	1    0    0    -1  
 $EndComp
@@ -457,9 +505,13 @@ L Device:C_Small C17
 U 1 1 6061D0CB
 P 1150 2400
 F 0 "C17" V 1379 2400 50  0000 C CNN
-F 1 "1uF / 10V" V 1288 2400 50  0000 C CNN
+F 1 "1uF / 50V" V 1288 2400 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1150 2400 50  0001 C CNN
 F 3 "~" H 1150 2400 50  0001 C CNN
+F 4 "C28323" H 1150 2400 50  0001 C CNN "LCSC"
+F 5 "Samsung Electro-Mechanics" H 1150 2400 50  0001 C CNN "Manufacturer_Name"
+F 6 "CL21B105KBFNNNE" H 1150 2400 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "187-CL21B105KBFNNNE" H 1150 2400 50  0001 C CNN "Mouser Part Number"
 	1    1150 2400
 	0    1    -1   0   
 $EndComp
@@ -499,9 +551,12 @@ L Device:C_Small C24
 U 1 1 60631A6D
 P 4450 2050
 F 0 "C24" H 4542 2096 50  0000 L CNN
-F 1 "10uF 35V" H 4542 2005 50  0000 L CNN
+F 1 "10uF / 35V" H 4542 2005 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4450 2050 50  0001 C CNN
 F 3 "~" H 4450 2050 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 4450 2050 50  0001 C CNN "Manufacturer_Name"
+F 5 "CL21A106KBYQNNE" H 4450 2050 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "187-CL21A106KBYQNNE" H 4450 2050 50  0001 C CNN "Mouser Part Number"
 	1    4450 2050
 	1    0    0    -1  
 $EndComp
@@ -543,9 +598,13 @@ L Device:C_Small C23
 U 1 1 60642D0D
 P 4450 5200
 F 0 "C23" H 4542 5246 50  0000 L CNN
-F 1 "100nF 35V" H 4542 5155 50  0000 L CNN
+F 1 "0,1uF / 50V" H 4542 5155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4450 5200 50  0001 C CNN
 F 3 "~" H 4450 5200 50  0001 C CNN
+F 4 "C62912" H 4450 5200 50  0001 C CNN "LCSC"
+F 5 "Samsung Electro-Mechanics" H 4450 5200 50  0001 C CNN "Manufacturer_Name"
+F 6 "CL21B104KBCSFNC" H 4450 5200 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "187-CL21B104KBCSFNC" H 4450 5200 50  0001 C CNN "Mouser Part Number"
 	1    4450 5200
 	1    0    0    -1  
 $EndComp
@@ -569,9 +628,13 @@ L Device:C_Small C30
 U 1 1 60691B4A
 P 7600 5300
 F 0 "C30" H 7692 5346 50  0000 L CNN
-F 1 "100nF / 10V" H 7692 5255 50  0000 L CNN
+F 1 "0,1uF / 50V" H 7692 5255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7600 5300 50  0001 C CNN
 F 3 "~" H 7600 5300 50  0001 C CNN
+F 4 "C62912" H 7600 5300 50  0001 C CNN "LCSC"
+F 5 "Samsung Electro-Mechanics" H 7600 5300 50  0001 C CNN "Manufacturer_Name"
+F 6 "CL21B104KBCSFNC" H 7600 5300 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "187-CL21B104KBCSFNC" H 7600 5300 50  0001 C CNN "Mouser Part Number"
 	1    7600 5300
 	1    0    0    -1  
 $EndComp
@@ -583,6 +646,10 @@ F 0 "C31" H 8092 5346 50  0000 L CNN
 F 1 "10uF / 10V" H 8092 5255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8000 5300 50  0001 C CNN
 F 3 "~" H 8000 5300 50  0001 C CNN
+F 4 "C91245" H 8000 5300 50  0001 C CNN "LCSC"
+F 5 "Samsung Electro-Mechanics" H 8000 5300 50  0001 C CNN "Manufacturer_Name"
+F 6 "CL21A106MPFNNNE" H 8000 5300 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "187-CL21A106MPFNNNE" H 8000 5300 50  0001 C CNN "Mouser Part Number"
 	1    8000 5300
 	1    0    0    -1  
 $EndComp
@@ -597,9 +664,13 @@ L Device:C_Small C27
 U 1 1 606B7CF9
 P 6450 5300
 F 0 "C27" H 6542 5346 50  0000 L CNN
-F 1 "100nF / 10V" H 6542 5255 50  0000 L CNN
+F 1 "0,1uF / 50V" H 6542 5255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6450 5300 50  0001 C CNN
 F 3 "~" H 6450 5300 50  0001 C CNN
+F 4 "C62912" H 6450 5300 50  0001 C CNN "LCSC"
+F 5 "Samsung Electro-Mechanics" H 6450 5300 50  0001 C CNN "Manufacturer_Name"
+F 6 "CL21B104KBCSFNC" H 6450 5300 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "187-CL21B104KBCSFNC" H 6450 5300 50  0001 C CNN "Mouser Part Number"
 	1    6450 5300
 	1    0    0    -1  
 $EndComp
@@ -611,6 +682,10 @@ F 0 "C28" H 6942 5346 50  0000 L CNN
 F 1 "10uF / 10V" H 6942 5255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6850 5300 50  0001 C CNN
 F 3 "~" H 6850 5300 50  0001 C CNN
+F 4 "C91245" H 6850 5300 50  0001 C CNN "LCSC"
+F 5 "Samsung Electro-Mechanics" H 6850 5300 50  0001 C CNN "Manufacturer_Name"
+F 6 "CL21A106MPFNNNE" H 6850 5300 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "187-CL21A106MPFNNNE" H 6850 5300 50  0001 C CNN "Mouser Part Number"
 	1    6850 5300
 	1    0    0    -1  
 $EndComp
@@ -628,6 +703,7 @@ F 6 "74-293D107X0010C2TE3" H 7550 4950 50  0001 L CNN "Mouser Part Number"
 F 7 "https://www.mouser.co.uk/ProductDetail/Vishay-Sprague/293D107X0010C2TE3?qs=N31o%252Bt096gvuicCGzGj0%2FQ%3D%3D" H 7550 4850 50  0001 L CNN "Mouser Price/Stock"
 F 8 "Vishay" H 7550 4750 50  0001 L CNN "Manufacturer_Name"
 F 9 "293D107X0010C2TE3" H 7550 4650 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "C136005" H 7200 5300 50  0001 C CNN "LCSC"
 	1    7200 5300
 	1    0    0    -1  
 $EndComp
@@ -674,9 +750,12 @@ L Device:C_Small C33
 U 1 1 606D04D3
 P 8650 4950
 F 0 "C33" H 8742 4996 50  0000 L CNN
-F 1 "10u" H 8742 4905 50  0000 L CNN
+F 1 "10u / 35V" H 8742 4905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8650 4950 50  0001 C CNN
 F 3 "~" H 8650 4950 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 8650 4950 50  0001 C CNN "Manufacturer_Name"
+F 5 "CL21A106KBYQNNE" H 8650 4950 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "187-CL21A106KBYQNNE" H 8650 4950 50  0001 C CNN "Mouser Part Number"
 	1    8650 4950
 	1    0    0    -1  
 $EndComp
@@ -685,9 +764,13 @@ L Device:C_Small C34
 U 1 1 606D11DC
 P 9000 4950
 F 0 "C34" H 9092 4996 50  0000 L CNN
-F 1 "100uF / 6.3V" H 9092 4905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 9000 4950 50  0001 C CNN
+F 1 "100uF / 10V" H 9092 4905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9000 4950 50  0001 C CNN
 F 3 "~" H 9000 4950 50  0001 C CNN
+F 4 "C307523" H 9000 4950 50  0001 C CNN "LCSC"
+F 5 "Samsung Electro-Mechanics" H 9000 4950 50  0001 C CNN "Manufacturer_Name"
+F 6 "CL21A106KPFNNNG" H 9000 4950 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "187-CL21A106KPFNNNG" H 9000 4950 50  0001 C CNN "Mouser Part Number"
 	1    9000 4950
 	1    0    0    -1  
 $EndComp
@@ -821,6 +904,7 @@ F 6 "74-293D107X0010C2TE3" H 8700 4950 50  0001 L CNN "Mouser Part Number"
 F 7 "https://www.mouser.co.uk/ProductDetail/Vishay-Sprague/293D107X0010C2TE3?qs=N31o%252Bt096gvuicCGzGj0%2FQ%3D%3D" H 8700 4850 50  0001 L CNN "Mouser Price/Stock"
 F 8 "Vishay" H 8700 4750 50  0001 L CNN "Manufacturer_Name"
 F 9 "293D107X0010C2TE3" H 8700 4650 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "C136005" H 8350 5300 50  0001 C CNN "LCSC"
 	1    8350 5300
 	1    0    0    -1  
 $EndComp
@@ -838,6 +922,7 @@ F 6 "74-293D476X0016D2TE3" H 4500 4850 50  0001 L CNN "Mouser Part Number"
 F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=74-293D476X0016D2TE3" H 4500 4750 50  0001 L CNN "Mouser Price/Stock"
 F 8 "Vishay" H 4500 4650 50  0001 L CNN "Manufacturer_Name"
 F 9 "293D476X0016D2TE3" H 4500 4550 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "C130385" H 4150 5200 50  0001 C CNN "LCSC"
 	1    4150 5200
 	1    0    0    -1  
 $EndComp
@@ -866,6 +951,10 @@ F 0 "R62" V 6296 5000 50  0000 C CNN
 F 1 "47" V 6205 5000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6100 5000 50  0001 C CNN
 F 3 "~" H 6100 5000 50  0001 C CNN
+F 4 "C17714" H 6100 5000 50  0001 C CNN "LCSC"
+F 5 "Vishay" H 6100 5000 50  0001 C CNN "Manufacturer_Name"
+F 6 "CRCW080547R0FKEAC" H 6100 5000 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "71-CRCW080547R0FKEAC" H 6100 5000 50  0001 C CNN "Mouser Part Number"
 	1    6100 5000
 	0    -1   -1   0   
 $EndComp
@@ -877,6 +966,10 @@ F 0 "R61" V 6096 5000 50  0000 C CNN
 F 1 "3,3k" V 6005 5000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5900 5000 50  0001 C CNN
 F 3 "~" H 5900 5000 50  0001 C CNN
+F 4 "C26010" H 5900 5000 50  0001 C CNN "LCSC"
+F 5 "Vishay" H 5900 5000 50  0001 C CNN "Manufacturer_Name"
+F 6 "CRCW08053K30FKEAC" H 5900 5000 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "71-CRCW08053K30FKEAC" H 5900 5000 50  0001 C CNN "Mouser Part Number"
 	1    5900 5000
 	0    -1   -1   0   
 $EndComp
@@ -900,6 +993,10 @@ F 0 "R60" H 5291 5154 50  0000 R CNN
 F 1 "620" H 5291 5245 50  0000 R CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5350 5200 50  0001 C CNN
 F 3 "~" H 5350 5200 50  0001 C CNN
+F 4 "C17782" H 5350 5200 50  0001 C CNN "LCSC"
+F 5 "Vishay" H 5350 5200 50  0001 C CNN "Manufacturer_Name"
+F 6 "CRCW0805620RFKEA" H 5350 5200 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "71-CRCW0805620RFKEA" H 5350 5200 50  0001 C CNN "Mouser Part Number"
 	1    5350 5200
 	-1   0    0    1   
 $EndComp
@@ -908,9 +1005,12 @@ L Device:C_Small C26
 U 1 1 606721A6
 P 5650 5200
 F 0 "C26" H 5742 5246 50  0000 L CNN
-F 1 "0,47nF" H 5742 5155 50  0000 L CNN
+F 1 "0,47uF / 16V" H 5742 5155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5650 5200 50  0001 C CNN
 F 3 "~" H 5650 5200 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 5650 5200 50  0001 C CNN "Manufacturer_Name"
+F 5 "CL21B474KOFNNNE" H 5650 5200 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "187-CL21B474KOFNNNE" H 5650 5200 50  0001 C CNN "Mouser Part Number"
 	1    5650 5200
 	1    0    0    -1  
 $EndComp
@@ -937,6 +1037,10 @@ F 0 "R59" H 4941 5154 50  0000 R CNN
 F 1 "1,5k" H 4941 5245 50  0000 R CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5000 5200 50  0001 C CNN
 F 3 "~" H 5000 5200 50  0001 C CNN
+F 4 "C4310" H 5000 5200 50  0001 C CNN "LCSC"
+F 5 "Vishay" H 5000 5200 50  0001 C CNN "Manufacturer_Name"
+F 6 "CRCW08051K50FKEA" H 5000 5200 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "71-CRCW0805-1.5K-E3" H 5000 5200 50  0001 C CNN "Mouser Part Number"
 	1    5000 5200
 	-1   0    0    1   
 $EndComp

@@ -40,6 +40,11 @@ F 0 "R1" H 5770 2846 50  0000 L CNN
 F 1 "4,7k" H 5770 2755 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5630 2800 50  0001 C CNN
 F 3 "~" H 5700 2800 50  0001 C CNN
+F 4 "C61924" H 5700 2800 50  0001 C CNN "LCSC"
+F 5 "Vishay" H 5700 2800 50  0001 C CNN "Manufacturer_Name"
+F 6 "CRCW08054K70FKEAC" H 5700 2800 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "71-CRCW08054K70FKEAC" H 5700 2800 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.de/ProductDetail/Vishay-Dale/CRCW08054K70FKEAC/?qs=%2Fha2pyFaduhkDOWkOJXWlCr7OW2P617rEYihhYtlcgqIKvjKQ0DWSVxd3tufRT70" H 5700 2800 50  0001 C CNN "Mouser Price/Stock"
 	1    5700 2800
 	1    0    0    -1  
 $EndComp
@@ -53,6 +58,11 @@ F 0 "R2" H 6020 2846 50  0000 L CNN
 F 1 "4,7k" H 6020 2755 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5880 2800 50  0001 C CNN
 F 3 "~" H 5950 2800 50  0001 C CNN
+F 4 "C61924" H 5950 2800 50  0001 C CNN "LCSC"
+F 5 "Vishay" H 5950 2800 50  0001 C CNN "Manufacturer_Name"
+F 6 "CRCW08054K70FKEAC" H 5950 2800 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "71-CRCW08054K70FKEAC" H 5950 2800 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.de/ProductDetail/Vishay-Dale/CRCW08054K70FKEAC/?qs=%2Fha2pyFaduhkDOWkOJXWlCr7OW2P617rEYihhYtlcgqIKvjKQ0DWSVxd3tufRT70" H 5950 2800 50  0001 C CNN "Mouser Price/Stock"
 	1    5950 2800
 	1    0    0    -1  
 $EndComp
@@ -72,6 +82,7 @@ F 6 "700-DS3231MZ/V+" H 5500 2800 50  0001 L CNN "Mouser Part Number"
 F 7 "https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/DS3231MZ-V%2b/?qs=Qom7kyPojXZylqiDztGLqw%3D%3D" H 5500 2700 50  0001 L CNN "Mouser Price/Stock"
 F 8 "Maxim Integrated" H 5500 2600 50  0001 L CNN "Manufacturer_Name"
 F 9 "DS3231MZ/V+" H 5500 2500 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "C107410" H 4350 3100 50  0001 C CNN "LCSC"
 	1    4350 3100
 	1    0    0    -1  
 $EndComp
@@ -133,6 +144,7 @@ F 6 "511-M24C32-RDW6TP" H 3350 4200 50  0001 L CNN "Mouser Part Number"
 F 7 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/M24C32-RDW6TP/?qs=%252B9pWl1iD4MVhMVBjnj8NEA%3D%3D" H 3350 4100 50  0001 L CNN "Mouser Price/Stock"
 F 8 "STMicroelectronics" H 3350 4000 50  0001 L CNN "Manufacturer_Name"
 F 9 "M24C32-RDW6TP" H 3350 3900 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "C283444" H 2500 4500 50  0001 C CNN "LCSC"
 	1    2500 4500
 	1    0    0    -1  
 $EndComp
@@ -189,6 +201,10 @@ F 0 "R63" V 3343 4950 50  0000 C CNN
 F 1 "3,3k" V 3434 4950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3480 4950 50  0001 C CNN
 F 3 "~" H 3550 4950 50  0001 C CNN
+F 4 "C26010" H 3550 4950 50  0001 C CNN "LCSC"
+F 5 "Vishay" H 3550 4950 50  0001 C CNN "Manufacturer_Name"
+F 6 "CRCW08053K30FKEAC" H 3550 4950 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "71-CRCW08053K30FKEAC" H 3550 4950 50  0001 C CNN "Mouser Part Number"
 	1    3550 4950
 	-1   0    0    1   
 $EndComp
@@ -205,6 +221,10 @@ F 0 "R64" V 3693 4950 50  0000 C CNN
 F 1 "3,3k" V 3784 4950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3830 4950 50  0001 C CNN
 F 3 "~" H 3900 4950 50  0001 C CNN
+F 4 "C26010" H 3900 4950 50  0001 C CNN "LCSC"
+F 5 "Vishay" H 3900 4950 50  0001 C CNN "Manufacturer_Name"
+F 6 "CRCW08053K30FKEAC" H 3900 4950 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "71-CRCW08053K30FKEAC" H 3900 4950 50  0001 C CNN "Mouser Part Number"
 	1    3900 4950
 	-1   0    0    1   
 $EndComp
