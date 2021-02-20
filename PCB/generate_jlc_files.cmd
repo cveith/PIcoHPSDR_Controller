@@ -1,0 +1,1 @@
+py %appdata%\Python\Python39\site-packages\jlc_kicad_tools\generate_jlc_files.py -n "pihpsdr Controller" -o "d:\Workspaces\Github Projects\PiHPSDR_Controller\PCB\_Exports" "d:\Workspaces\Github Projects\PiHPSDR_Controller\PCB"

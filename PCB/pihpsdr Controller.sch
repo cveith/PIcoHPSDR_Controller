@@ -244,7 +244,7 @@ F 6 "579-MCP23017T-E/SO" H 6300 4200 50  0001 L CNN "Mouser Part Number"
 F 7 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP23017T-E-SO/?qs=usxtMOJb1RylPfT%252BJtgE3Q%3D%3D" H 6300 4100 50  0001 L CNN "Mouser Price/Stock"
 F 8 "Microchip" H 6300 4000 50  0001 L CNN "Manufacturer_Name"
 F 9 "MCP23017T-E/SO" H 6300 3900 50  0001 L CNN "Manufacturer_Part_Number"
-F 10 "C47023" H 5250 4500 50  0001 C CNN "LCSC"
+F 10 "" H 5250 4500 50  0001 C CNN "LCSC"
 	1    5250 4500
 	1    0    0    -1  
 $EndComp
@@ -262,7 +262,7 @@ F 6 "579-MCP23017T-E/SO" H 2450 4200 50  0001 L CNN "Mouser Part Number"
 F 7 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP23017T-E-SO/?qs=usxtMOJb1RylPfT%252BJtgE3Q%3D%3D" H 2450 4100 50  0001 L CNN "Mouser Price/Stock"
 F 8 "Microchip" H 2450 4000 50  0001 L CNN "Manufacturer_Name"
 F 9 "MCP23017T-E/SO" H 2450 3900 50  0001 L CNN "Manufacturer_Part_Number"
-F 10 "C47023" H 1400 4500 50  0001 C CNN "LCSC"
+F 10 "" H 1400 4500 50  0001 C CNN "LCSC"
 	1    1400 4500
 	1    0    0    -1  
 $EndComp
@@ -495,7 +495,7 @@ F 0 "C1" H 1042 5446 50  0000 L CNN
 F 1 "10uF / 10V" H 1042 5355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 950 5400 50  0001 C CNN
 F 3 "~" H 950 5400 50  0001 C CNN
-F 4 "C91245" H 950 5400 50  0001 C CNN "LCSC"
+F 4 "C15850" H 950 5400 50  0001 C CNN "LCSC"
 F 5 "Samsung Electro-Mechanics" H 950 5400 50  0001 C CNN "Manufacturer_Name"
 F 6 "CL21A106MPFNNNE" H 950 5400 50  0001 C CNN "Manufacturer_Part_Number"
 F 7 "187-CL21A106MPFNNNE" H 950 5400 50  0001 C CNN "Mouser Part Number"
@@ -524,7 +524,7 @@ F 0 "C15" H 2842 5646 50  0000 L CNN
 F 1 "10uF / 10V" H 2842 5555 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2750 5600 50  0001 C CNN
 F 3 "~" H 2750 5600 50  0001 C CNN
-F 4 "C91245" H 2750 5600 50  0001 C CNN "LCSC"
+F 4 "C15850" H 2750 5600 50  0001 C CNN "LCSC"
 F 5 "Samsung Electro-Mechanics" H 2750 5600 50  0001 C CNN "Manufacturer_Name"
 F 6 "CL21A106MPFNNNE" H 2750 5600 50  0001 C CNN "Manufacturer_Part_Number"
 F 7 "187-CL21A106MPFNNNE" H 2750 5600 50  0001 C CNN "Mouser Part Number"
@@ -568,7 +568,7 @@ F 0 "C16" H 4892 5446 50  0000 L CNN
 F 1 "10uF / 10V" H 4892 5355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4800 5400 50  0001 C CNN
 F 3 "~" H 4800 5400 50  0001 C CNN
-F 4 "C91245" H 4800 5400 50  0001 C CNN "LCSC"
+F 4 "C15850" H 4800 5400 50  0001 C CNN "LCSC"
 F 5 "Samsung Electro-Mechanics" H 4800 5400 50  0001 C CNN "Manufacturer_Name"
 F 6 "CL21A106MPFNNNE" H 4800 5400 50  0001 C CNN "Manufacturer_Part_Number"
 F 7 "187-CL21A106MPFNNNE" H 4800 5400 50  0001 C CNN "Mouser Part Number"
@@ -599,7 +599,7 @@ F 0 "C35" H 7042 5696 50  0000 L CNN
 F 1 "10uF / 10V" H 7042 5605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6950 5650 50  0001 C CNN
 F 3 "~" H 6950 5650 50  0001 C CNN
-F 4 "C91245" H 6950 5650 50  0001 C CNN "LCSC"
+F 4 "C15850" H 6950 5650 50  0001 C CNN "LCSC"
 F 5 "Samsung Electro-Mechanics" H 6950 5650 50  0001 C CNN "Manufacturer_Name"
 F 6 "CL21A106MPFNNNE" H 6950 5650 50  0001 C CNN "Manufacturer_Part_Number"
 F 7 "187-CL21A106MPFNNNE" H 6950 5650 50  0001 C CNN "Mouser Part Number"
