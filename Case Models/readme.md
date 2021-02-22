@@ -13,7 +13,7 @@
 
 First Case model uses extruded aluminium profiles as upper and lower case parts.
 
-![Case 1 image] (https://github.com/cveith/PiHPSDR_Controller/blob/main/Case%20Models/Case.png)
+![Case 1 image](https://github.com/cveith/PiHPSDR_Controller/blob/main/Case%20Models/Case.png)
 
 Second model uses bend metal sheets as front and back panel.
-![Case 2 image] (https://github.com/cveith/PiHPSDR_Controller/blob/main/Case%20Models/Case_2.png)
+![Case 2 image](https://github.com/cveith/PiHPSDR_Controller/blob/main/Case%20Models/Case_2.png)
