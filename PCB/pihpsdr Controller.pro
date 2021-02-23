@@ -1,4 +1,4 @@
-update=20.02.2021 17:21:07
+update=23.02.2021 18:41:37
 version=1
 last_client=kicad
 [general]
@@ -253,7 +253,7 @@ dPairViaGap=0.25
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=
+PlotDirectoryName=_Exports/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
