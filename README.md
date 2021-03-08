@@ -34,3 +34,7 @@ The Encoder 2 Button has been pressed.
 
 PC receives 0b00010110 (Addr: 11, Data: 0):
 Encoder 2 Button has been released.
+
+The release state is not used for most switches, but necessary for the external PTT and the Microphone PTT button.
+
+Detailed address information can be found in the [Pico Protocol Values.ods] file.
