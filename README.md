@@ -37,4 +37,5 @@ Encoder 2 Button has been released.
 
 The release state is not used for most switches, but necessary for the external PTT and the Microphone PTT button.
 
-Detailed address information can be found in the [Pico Protocol Values.ods] file.
+The firmware is split of on a separate repository. Please see https://github.com/cveith/PIcoHPSDR_Controller_Firmware.
+Detailed address informations are in a Openoffice Calc file as well.
