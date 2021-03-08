@@ -3,6 +3,10 @@
 A hardware controller for the piHPSDR application by John Melton, G0ORX.
 I've called it PIcoHPSDR Controller, as it's using the newly released Raspberry Pi Pico as an abstraction layer to the hardware.
 
+Inspired by the original controller and therefore parts of this work is based on the original PiHPSDR Controller designed by Kjell Karlsen, LA2NI, et al.
+Many thanks Kjell.
+
+
 ## Features
 - 1 VFO encoder (5V, open collector outputs)
 - 4 Dual Shaft encoders (Alps EC11E type)
